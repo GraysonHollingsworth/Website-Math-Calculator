@@ -1,0 +1,178 @@
+.home {
+    color:rgb(225, 239, 255);
+    text-align: center;
+    position: static;
+  }
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  border-style: solid;
+  border-width: medium;
+  border-color: gray;
+  border-radius: 6px;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+#imgcontainer {
+  text-align: center;
+}
+
+a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+.navigation {
+    background-color:#5a94b6;
+    margin: 0;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .page {
+    text-decoration: none;
+    display: block;
+    padding: 22px;
+    float: left;
+    color: rgb(225, 239, 255);
+    font-size: 20px;
+  }
+  
+  #prime {
+    background-color: rgb(167, 90, 90);
+  }
+  
+  #prime:hover {
+    background-color: #555;
+  }
+  
+  #topbar {
+    background-image: url("Math2.jpg");
+    margin: 0px;
+    border-radius: 0px;
+    padding-top: 10px;
+  }
+
+  #div1 {
+    background-color: rgb(146, 93, 104);
+    border-radius: 50px 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+    margin: 40px auto;
+    max-width: 1000px;
+    min-width: 800px;
+
+  }
+
+  #div2 {
+    background-color: rgb(100, 139, 143);
+    padding-top: 10px;
+    border-radius: 50px 50px;
+    padding-left: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+    margin: 40px auto;
+    max-width: 1000px;
+    min-width: 800px;
+  }
+
+  #div3 {
+    background-color: rgb(173, 134, 75);
+    border-radius: 50px 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+    margin: 40px auto;
+    max-width: 1000px;   
+    min-width: 800px;
+  }
+
+.list {
+  text-align: left;
+  align-items: center;
+  margin-left: 230px;
+  justify-content: center;
+  color: rgb(225, 239, 255);
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+h5 {
+  font-size: 50px;
+}
+
+pre {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px auto; /* Adjust the margin for spacing */
+  color: rgb(225, 239, 255);
+  text-align: center; /* Adjust as needed */
+  padding: 10px 5px;
+  max-width: fit-content;
+  /*background-color: rgba(0, 0, 0, 0.8); /* Optional: Add a background color for better readability */
+  /*border-radius: 8px; /* Optional: Add rounded corners */
+  white-space: pre-wrap;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+  max-width: 2000px;
+  max-height: 1000px;
+  display: block;
+  top: 0;
+  margin: 0 auto;
+}
+
+.close-button {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.plow {
+  bottom: 0;
+  background-color: rgb(98, 98, 98);
+  position: sticky;
+  list-style-type: none;
+  text-align: left;
+  margin-right: 0;
+  display: inline-block;
+}

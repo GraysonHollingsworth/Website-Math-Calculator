@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>About</title>
+<link rel="stylesheet" href="AboutStyle.css">
+<body>
+               <!-- Navigation Bar -->
+            <ul class="navigation">
+                <a id="prime" class="page" href="Website.html">Home</a>
+                <a class="page" href="about.html">About</a>
+                <a class="page" href="references.html">References</a>
+                <a class="page" href="calculator.html">Calculator</a>
+                </ul>  
+    <div id="topbar">
+        <br>
+        <br>
+        
+        <h1 class="home" style="font-size: 80px;">About Page</h1>
+        <p class="home">This Website Was Created For My Virtual Internship Capstone Project</p>
+        
+        <br>
+        <br>
+        </div>
+        <br>
+        <h2 class="home">Project Overview</h2>
+        <pre>In this project, I created a functioning website using HTML and CSS. 
+    I also scripted a working math calculator that you can view on the <a href='calculator.html'>Calculator</a> page. 
+    I chose this for my project because programming is free and is something engineers are regularly involved in. 
+    In addition, coding involves many of the same problem-solving skills that an engineer would use. 
+    At first, I wanted to create something that could help with math functions, but that turned out to be too advanced. 
+    Ultimately, I decided to make a math calculator using the programming language JavaScript, 
+    which has been much more doable and allowed me to learn the basics of scripting. 
+    In the next few sections, I will go into depth on each programming language that was used for this project.
+        </pre>
+
+        <div id="div1">
+        <h3 class="home">HTML</h3>
+    <pre>The first language I learned was HTML. 
+    According to the w3schools website, "HTML is the standard markup language for Web pages." 
+    HTML, standing for Hyper Text Markup Language, describes the structure of a webpage. 
+    It forms the backbone of this webpage and is the reason you see anything here at all. 
+    The way HTML tells the webpage to display information is through <i>elements</i>. 
+    Below is an example of an HTML element.
+        </pre>
+        
+        <div id="imgcontainer">
+        <img class="home image lightbox-trigger" src="imgelement.jpeg" alt="Image Of HTML Element" data-large="imgelement.jpeg" width="500" height="100">
+        <div class="lightbox" id="lightbox">
+            <span class="close-button" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" alt="Large Image">
+        </div>
+        </div>
+
+        <pre>First you have the <b>start tag</b>, 
+    followed by the <b>content</b> of the element, 
+    and finally the <b>end tag</b> as you can see above. 
+    This is essentially how every element works.
+
+    After you know how HTML syntax (rules) and basic elements work, 
+    the hard part is knowing what every type of tag does.
+
+    There are over 100 element tags in HTML!
+
+    Below is an image of what the HTML forming this page looks like.
+        </pre>
+
+        <div id="imgcontainer">
+        <img class="home image lightbox-trigger" src="Screenshot 2023-11-26 182147.png" 
+        alt="Image Of HTML Element" data-large="Screenshot 2023-11-26 182147.png" width="900" height="500">
+        <div class="lightbox" id="lightbox">
+            <span class="close-button" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" alt="Large Image">
+        </div>
+        </div>
+        <p class="home">Click Image To Zoom</p>
+        <br>
+        
+        </div><div id="div2">
+
+        <h4 class="home">CSS</h4>
+        <pre>The second language I had to learn to make this website was CSS.
+    CSS stands for Cascading Style Sheets.
+    The Boston University article <i>What Is CSS?</i> describes it like this: 
+    "CSS specifies your document's style, page layouts, colors, and fonts."
+    It interacts with the HTML you already have through selectors.
+    The categories of CSS selectors include:</pre>
+        <li class="list">Simple selectors (select elements based on name, id, class).</li>
+        <li class="list">Combinator selectors (select elements based on a specific relationship between them).</li>
+        <li class="list">Pseudo-class selectors (select elements based on a certain state).</li>
+        <li class="list">Pseudo-elements selectors (select and style a part of an element).</li>
+        <li class="list">Attribute selectors (select elements based on an attribute or attribute value).</li>
+
+        <pre>Once I knew how to select an element, I began to use declarations to style the webpage.
+    Below is an image of what the CSS styling this page looks like.
+        </pre>
+
+        <div id="imgcontainer">
+            <img class="home image lightbox-trigger" src="Screenshot 2023-11-26 180343.png" 
+            alt="Image Of HTML Element" data-large="Screenshot 2023-11-26 180343.png" width="900" height="500">
+            <div class="lightbox" id="lightbox">
+                <span class="close-button" onclick="closeLightbox()">&times;</span>
+                <img id="lightbox-image" alt="Large Image">
+            </div>
+            </div>
+            <p class="home">Click Image To Zoom</p>
+        <br>
+        </div><div id="div3">
+
+        <h5 class="home">JavaScript</h5>
+        <pre>The final programming language I had to learn to make this website is called JavaScript.
+    This is the language that makes the math calculator work.
+    According to the Amazon Web Services article <i>What Is JavaScript?</i> 
+    "JavaScript is a programming language that developers use to make interactive webpages."
+    One way it can do this is by taking inputs from the user to deliver an output that 
+    is shown on the website. The way that JavaScript tells the computer what to do is through 
+    the use of <b>statements</b>. There are five kinds of statements in JavaScript: 
+    Values, Operators, Expressions, Keywords, and Comments.
+    Most often, JavaScript uses <b>keywords</b> at the beginning to identify what action to perform. 
+    There are a total of 63 JavaScript keywords!
+    Below is an example of a statement.</pre>
+
+        <div id="imgcontainer">
+        <img class="home image lightbox-trigger" src="examplestatement.jpeg" alt="Image Of JavaScript Statement" data-large="examplestatement.jpeg" width="900" height="60">
+        <div class="lightbox" id="lightbox">
+            <span class="close-button" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" alt="Large Image">
+        </div>
+        </div>
+
+        <pre>For this project, it required 113 lines of JavaScript code to make this calculator work.
+    Although, more complex scripts can take over 300.
+    Below is the JavaScript code for the maths calculator.
+        </pre>
+
+        <div id="imgcontainer">
+        <img class="home image lightbox-trigger" src="JS Screenshot.png" alt="Image Of JS Code" data-large="JS Screenshot.png" width="400" height="600">
+        <img class="home image lightbox-trigger" src="JS Screenshot 2.png" alt="Image Of JS Code" data-large="JS Screenshot 2.png" width="400" height="500">
+        <div class="lightbox" id="lightbox">
+            <span class="close-button" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" alt="Large Image">
+        </div>
+        </div>
+        <p class="home">Click Image To Zoom</p>
+        </div>
+    
+        <script src="JavaScript1.js"></script>
+
+        <br>
+    </div>
+
+<p class="plow home">Created by Grayson Hollingsworth 2023</p>
+</body>
+</head>
+</html>
